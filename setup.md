@@ -1,5 +1,6 @@
 ### Creating Virtual Environment
-'<addr>'python -m venv django
-
+'python -m venv django'
+'cd django'
+'django>Scripts\activate.bat'
 
 ### Installing Django
