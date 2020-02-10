@@ -1,9 +1,15 @@
 ### Creating Virtual Environment
+여러개의 프로젝트를 개발할 때 발생할 수 있는 패키지의 버전 문제를 해결
+가상 환경은 독립된 공간을 만들어 줘서 각각의 가상 환경 안에 다른 버전의 패키지를 사용할 수 있게 함
 ```
-python -m venv django
-cd django
-django>Scripts\activate.bat
+E:\PythonProjects>python -m venv django
+
+E:\PythonProjects>cd django
+E:\PythonProjects\django>Scripts\activate.bat
 ```
 [Further Reference](https://dojang.io/mod/page/view.php?id=2470)
 
 ### Installing Django
+'''
+pip install django
+'''
