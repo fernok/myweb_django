@@ -1,5 +1,5 @@
 ### Creating Virtual Environment
-`python -m venv django`
+`python -m venv django\n`
 `cd django`
 `django>Scripts\activate.bat`
 
