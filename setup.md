@@ -9,7 +9,7 @@ E:\PythonProjects>cd django
 E:\PythonProjects\django>Scripts\activate.bat
 ```
 
-### Creating Git Repository
+### About Git
 - Initializing Git
 ```
 git init
@@ -39,6 +39,23 @@ touch .gitignore
 ```
 Add names of files to be ignored when staging to .gitignore
 The files will not be staged nor committed
+- Branches
+```
+git branch login
+```
+Creates a new branch named 'login'
+```
+git checkout login
+```
+Switches to branch 'login'
+```
+git merge login
+```
+Merges 'master' branch with 'login' branch
+```
+git clean -d -f -f
+```
+When error `The following untracked working tree files would be overwritten by checkout`
 
 [Further Reference](https://dojang.io/mod/page/view.php?id=2470)
 
