@@ -57,6 +57,39 @@ git clean -d -f -f
 ```
 When error `The following untracked working tree files would be overwritten by checkout` occurs
 
+- Remote Repositories
+```
+git remote add origin https://github.com/fernok/myweb_django.git
+git push -u origin master
+```
+When the local repository and the remote repository have distinct histories, it might refuse to push with an error message such as
+```
+error: failed to push some refs to 'https://github.com/fernok/myweb_django.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+```
+This happens because the two repositories have different status.
+It is necessary to pull the remote repository first by
+```
+git pull origin master
+(git pull <remote> <branch>)
+```
+However, this also failes to execute with an error message
+```
+fatal: refusing to merge unrelated histories
+```
+This can be solved by manually allowing the merge of repositories with unrelated histories.
+```
+git pull origin master --allow-unrelated-histories
+```
+All problems are solved and now the two repositories can be merged.
+```
+git push -u origin master
+```
+
 [Further Reference](https://dojang.io/mod/page/view.php?id=2470)
 
 ### Installing Django
