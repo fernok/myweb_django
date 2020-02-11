@@ -10,7 +10,7 @@ E:\PythonProjects\django>Scripts\activate.bat
 ```
 
 ### Creating Git Repository
-- Initializing git
+- Initializing Git
 ```
 git init
 ```
@@ -33,6 +33,12 @@ git commit
 ```
 git commit -m "manage.py modified"
 ```
+- Git Ignore
+```
+touch .gitignore
+```
+Add names of files to be ignored when staging to .gitignore
+The files will not be staged nor committed
 
 [Further Reference](https://dojang.io/mod/page/view.php?id=2470)
 
