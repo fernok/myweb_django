@@ -55,7 +55,7 @@ Merges 'master' branch with 'login' branch
 ```
 git clean -d -f -f
 ```
-When error `The following untracked working tree files would be overwritten by checkout`
+When error `The following untracked working tree files would be overwritten by checkout` occurs
 
 [Further Reference](https://dojang.io/mod/page/view.php?id=2470)
 
