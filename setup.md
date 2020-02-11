@@ -3,7 +3,8 @@
 가상 환경은 독립된 공간을 만들어 줘서 각각의 가상 환경 안에 다른 버전의 패키지를 사용할 수 있게 함
 ```
 E:\PythonProjects>python -m venv django
-
+```
+```
 E:\PythonProjects>cd django
 E:\PythonProjects\django>Scripts\activate.bat
 ```
