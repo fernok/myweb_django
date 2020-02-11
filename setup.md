@@ -8,6 +8,7 @@ E:\PythonProjects>python -m venv django
 E:\PythonProjects>cd django
 E:\PythonProjects\django>Scripts\activate.bat
 ```
+[Further Reference](https://dojang.io/mod/page/view.php?id=2470)
 
 ## About Git
 - Initializing Git
@@ -89,8 +90,6 @@ All problems are solved and now the two repositories can be merged.
 ```
 git push -u origin master
 ```
-
-[Further Reference](https://dojang.io/mod/page/view.php?id=2470)
 
 ## Installing Django
 ```
