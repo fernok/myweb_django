@@ -31,7 +31,7 @@ git commit
 >> Aborting commit due to empty commit message.
 ```
 ```
-git commit -m "First commit"
+git commit -m "manage.py modified"
 ```
 
 [Further Reference](https://dojang.io/mod/page/view.php?id=2470)
