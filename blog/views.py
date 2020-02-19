@@ -28,4 +28,7 @@ def home(request):
 def about(request):
     return render(request, 'blog/about.html', {'title': 'About'})
 
+def myweb(request):
+    return render(request, 'blog/myweb.html', {'title': 'MyWeb'})
+
 # Create your views here.
