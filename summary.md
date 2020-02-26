@@ -6,3 +6,7 @@
 ## Part 8: User Profile and Picture
 - extend user model to add more fields
 - use signals to perform certain actions when the signal is triggered
+
+## Part 9: Update User Profile
+- update profile
+- update profile image
